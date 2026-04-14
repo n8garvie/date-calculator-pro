@@ -2,6 +2,8 @@
 
 Advanced date and time calculation tool for professionals. Calculate business days, convert timezones, and track project deadlines.
 
+![Date Calculator Pro Screenshot](./screenshot.png)
+
 ## Features
 
 ### 📅 Date Calculator (`/`)
