@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Date Calculator Pro
+
+Advanced date and time calculation tool for professionals. Calculate business days, convert timezones, and track project deadlines.
+
+## Features
+
+### 📅 Date Calculator (`/`)
+- Add/subtract calendar or business days
+- Visual breakdown of total/business/weekend days
+- Quick links to other tools
+
+### 🌍 Timezone Converter (`/timezones`)
+- Convert across 9 major timezones
+- Real-time conversion with base timezone selector
+- Visual timezone cards
+
+### 📋 Deadline Tracker (`/deadlines`)
+- Add, edit, and delete deadlines
+- Priority levels (high/medium/low)
+- Days remaining calculation with status indicators
+- **localStorage persistence** - your deadlines persist across sessions
+- Completion tracking
+
+### 💼 Business Days (`/business`)
+- Quick reference for common business day calculations
+- 5/10/30/45/60 business day lookup
+- Calendar day equivalents
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router, TypeScript)
+- **Styling:** Tailwind CSS
+- **Date Library:** date-fns
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+## Design
+
+- **Primary Color:** Blue (#3B82F6)
+- **Theme:** Dark mode professional tool aesthetic
+- **UI Components:** CalculatorCard, ResultDisplay, Navbar
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Static export ready for deployment.
 
-To learn more about Next.js, take a look at the following resources:
+## Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://date-calculator-pro.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
